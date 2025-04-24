@@ -1,1 +1,2 @@
-console.log("DOM journey start now for me");
+let sections = document.querySelectorAll('section');
+console.log(sections);

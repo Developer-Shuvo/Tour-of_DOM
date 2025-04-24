@@ -10,28 +10,41 @@
 
 <body>
     <!-- *************Header************ -->
-    <header>
+    <header id="fruits">
         <h1>Now start my DOM journey</h1>
     </header>
     <!-- *************Main************ -->
     <main>
-        <div class="main-container">
+        <section class="main-container">
             <h2>Places i like</h2>
             <ul>
                 <li>Switzerland</li>
                 <li>USA</li>
                 <li>Canada</li>
             </ul>
-        </div>
+        </section>
 
-        <div id="fruits">
+        <section>
             <h1>Fruits i like</h1>
             <ul>
                 <li>Apple</li>
                 <li>Orange</li>
                 <li>Banana</li>
             </ul>
-        </div>
+        </section>
+
+        <!-- ********************* -->
+        <section class="fav-bikes">
+            <h3>My Favorite bikes</h3>
+            <ol>
+                <li>BMW 100 RR</li>
+                <li>Ducati panigal v4</li>
+                <li>Royal Enfield</li>
+                <li>Harley Devidson</li>
+                <li>Kawasaki Ninja</li>
+            </ol>
+
+        </section>
 
     </main>
 
@@ -40,16 +53,21 @@
     <script src="./js/dom.js">
         let allHeader = document.getElementsByTagName('li');
         for (let header of allHeader) {
-            console.log(li.innerText);
+            // console.log(li.innerText);
         }
 
         let allId = document.getElementById('fruits');
-        console.log(allId.innerText);
+        // console.log(allId.innerText);
 
 
         let allUl = document.getElementsByClassName('main-container');
         for (let ul of main - container) {
-            console.log(ul.innerText);
+            // console.log(ul.innerText);
+        }
+
+        let favBikes = document.getElementsByClassName('fav-bikes')
+        for (let ol of favBikes) {
+            // console.log(ol.innerHTML)
         }
     </script>
 </body>
