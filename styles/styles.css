@@ -19,3 +19,9 @@ h1 {
     gap: 40px;
     color: orange;
 }
+
+#fruits {
+    font-size: 80px;
+    color: purple;
+    text-align: center;
+}

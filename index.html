@@ -16,11 +16,20 @@
     <!-- *************Main************ -->
     <main>
         <div class="main-container">
-            <h2>DOM List</h2>
+            <h2>Places i like</h2>
             <ul>
-                <li>No.1</li>
-                <li>No.2</li>
-                <li>No.3</li>
+                <li>Switzerland</li>
+                <li>USA</li>
+                <li>Canada</li>
+            </ul>
+        </div>
+
+        <div id="fruits">
+            <h1>Fruits i like</h1>
+            <ul>
+                <li>Apple</li>
+                <li>Orange</li>
+                <li>Banana</li>
             </ul>
         </div>
 
@@ -28,7 +37,21 @@
 
 
     <!-- ******JavaScript connection******* -->
-    <script src="./js/dom.js"></script>
+    <script src="./js/dom.js">
+        let allHeader = document.getElementsByTagName('li');
+        for (let header of allHeader) {
+            console.log(li.innerText);
+        }
+
+        let allId = document.getElementById('fruits');
+        console.log(allId.innerText);
+
+
+        let allUl = document.getElementsByClassName('main-container');
+        for (let ul of main - container) {
+            console.log(ul.innerText);
+        }
+    </script>
 </body>
 
 </html>
