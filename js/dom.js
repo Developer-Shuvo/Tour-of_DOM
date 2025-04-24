@@ -1,2 +1,5 @@
 let sections = document.querySelectorAll('section');
-console.log(sections);
+for (let section of sections) {
+    section.style.border = '2px solid green';
+    section.style.marginBottom = ' 10px';
+}
