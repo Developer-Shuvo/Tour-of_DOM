@@ -30,3 +30,15 @@ h1 {
     color: brown;
     padding-left: 10px;
 }
+
+.new-box {
+    border: 5px;
+    border-color: red;
+    background-color: lightgreen;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
