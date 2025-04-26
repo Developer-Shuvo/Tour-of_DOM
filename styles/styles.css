@@ -27,8 +27,13 @@ h1 {
 }
 
 .box {
-    color: brown;
+    color: black;
     padding-left: 10px;
+    text-align: center;
+    height: 80 px;
+    width: 500px;
+    background-color: antiquewhite;
+    font-size: large;
 }
 
 .new-box {
