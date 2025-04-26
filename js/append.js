@@ -5,6 +5,10 @@ placeList.appendChild(add);
 
 
 // ********************************************************
+// *How to add any section/div/li/...using javascript
+// ********************************************************
+
+
 // where to add ?
 let mainContainer = document.getElementById('main-container');
 
@@ -31,3 +35,18 @@ ul.appendChild(li3);
 
 section.appendChild(ul);
 mainContainer.appendChild(section);
+
+
+// ************ Set inner Html directly *************
+let directSection = document.createElement('section');
+directSection.innerHTML = `
+<h1> Directly set inner Html using JS </h1>
+<ol>
+<li>Allahu-Akbar</li> 
+<li>Allahu-Akbar </li> 
+<li> Allahu-Akbar</li> 
+<li>Allahu-Akbar </li> 
+<li>Allahu-Akbar </li>
+ </ol>`
+
+mainContainer.appendChild(directSection);
